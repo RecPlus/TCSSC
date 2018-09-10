@@ -1,6 +1,5 @@
 The Complete Short Sword Class Mod is a mod that adds a lot of new 
-s
-hortswords with new interesting tactic. This tactic consist
+shortswords with new interesting tactic. This tactic consist
 when you hit any npc with your shortswords you will 
 have a defense boost and potion sickness debuff.
 
