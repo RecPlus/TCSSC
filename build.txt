@@ -1,3 +1,3 @@
 author = RecPlus
-version = 0.11
+version = 0.1
 displayName = The Complete Shortsword Class
