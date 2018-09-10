@@ -1,0 +1,40 @@
+The Complete Short Sword Class Mod is a mod that adds a lot of new 
+s
+hortswords with new interesting tactic. This tactic consist
+when you hit any npc with your shortswords you will 
+have a defense boost and potion sickness debuff.
+
+This mod adds a new potion; the titanium skin potion. This potion gives you 50 defense for
+25 seconds, perfect to fight with your shortsword.
+
+Some of the swords are this:
+
+- Wooden Pike: - The most basic shortsword, has 2 damage and gives you
+                 a small amount of defense when attack.
+
+- Laser Shortswords: - The small version of lightsabers, it has a secondary
+                     attack that gives you feather falling and swiftness buff
+                     for some seconds
+
+- Big Syringe: - A weapon that drops the nurse on hardmode, when you attack an
+               enemy, it drains a lot of life from it, but the potion sickness
+               debuff cooldown increases a lot.
+
+- Stick: - The most powerful weapon in the game, it deals more than 2k of damage,
+           and it does a lot of attacks that breaks the game.
+
+With this mod you can craft shortswords with hardmode ores and you can craft
+the Night's edge swords in small version.
+
+This mod is in pre-alpha and probably i will to add a lot of things like these:
+
+- Calamity and tremor mods shortswords
+- Add the new tactic in vanilla weapons.
+- Fix bugs
+- Accesories
+- New shortsword
+
+Download this mod and enjoy the new shortsword system!
+
+V.prealpha-0.1
+Mod created by RecPlus
