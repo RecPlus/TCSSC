@@ -28,6 +28,7 @@ public override void SetStaticDefaults()
 				item.shoot = 0;
 				item.shootSpeed = 2f;
                 item.useAnimation = 15;
+				item.shoot = mod.ProjectileType("nothing");
     }
 	
 		
