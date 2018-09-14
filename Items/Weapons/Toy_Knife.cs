@@ -68,7 +68,7 @@ public override void SetStaticDefaults()
 		
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
 		{
-			player.AddBuff(mod.BuffType("lowboost"), 60);
+			player.AddBuff(mod.BuffType("tinyboost"), 60);
 			player.AddBuff(21, 600);
 		}
 		

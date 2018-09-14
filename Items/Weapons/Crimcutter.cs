@@ -25,6 +25,7 @@ public override void SetStaticDefaults()
         item.rare = 1;
         item.UseSound = SoundID.Item1;
         item.autoReuse = true;
+		item.shoot = mod.ProjectileType("nothing");
     }
 	
 	    public override void AddRecipes()                
@@ -47,8 +48,8 @@ recipe.AddIngredient(1257, 5);
 	
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
 		{
-			player.AddBuff(mod.BuffType("lowboost"), 180);
-			player.AddBuff(21, 600);
+			player.AddBuff(mod.BuffType("lowboost"), 60);
+			player.AddBuff(21, 700);
 		}
 
 }}

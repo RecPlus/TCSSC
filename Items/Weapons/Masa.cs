@@ -25,6 +25,7 @@ public override void SetStaticDefaults()
         item.rare = 2;
         item.UseSound = SoundID.Item1;
         item.autoReuse = true;
+		item.shoot = mod.ProjectileType("nothing");
     }
 	
 	public override void MeleeEffects(Player player, Rectangle hitbox)
