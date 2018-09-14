@@ -17,6 +17,8 @@ FEATURES:
 
 - Replaced "Night's Little Blade" to "The Cutter Of The True
   Terrarian" in the "Stick" craft.
+
+- Steamgropup added on mod homepage to join more easy
 -------------------------------------------------------------------------------
 Next Update features:
 
