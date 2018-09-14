@@ -41,7 +41,7 @@ public override void SetStaticDefaults()
 		     ModRecipe recipe = new ModRecipe(mod);
 recipe.AddIngredient(3069);
 recipe.AddIngredient(null, "Wooden_Pike");
-recipe.AddIngredient(null, "Night_Stabber");			 
+recipe.AddIngredient(null, "Terra_Cutter");			 
 recipe.AddIngredient(null, "Stringe");			 	
 recipe.AddIngredient(null, "bullet");
 recipe.AddIngredient(null, "rainbow");
