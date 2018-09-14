@@ -47,6 +47,27 @@ namespace TCSSC.Drops
 				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("Chaotic_Cosmos"));
 			}
 		}
+			if(npc.type == 395)
+		{
+			if (Main.rand.NextFloat(100) < 11.11) // 13.23% chance
+			{
+				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("Fluxer_Taser"));
+			}
+		}
+			if(npc.type == 287)
+		{
+			if (Main.rand.NextFloat(5) < 1) // 13.23% chance
+			{
+				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("Kunai"));
+			}
+		}
+			if(npc.type == 222)
+		{
+			if (Main.rand.NextFloat(5) < 1) // 13.23% chance
+			{
+				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("The_Hiver"));
+			}
+		}
 		// Addtional if statements here if you would like to add drops to other vanilla npc.
 	}
 }}
