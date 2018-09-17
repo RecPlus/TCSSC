@@ -18,7 +18,7 @@ public override void SetStaticDefaults()
         item.height = 32;
         item.useStyle = 3;
         item.value = 650000;
-        item.rare = 7;
+        item.rare = 5;
 			item.useStyle = 3;
 				item.autoReuse = true;
 				item.melee = true;
