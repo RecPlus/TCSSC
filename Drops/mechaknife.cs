@@ -68,6 +68,13 @@ namespace TCSSC.Drops
 				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("The_Hiver"));
 			}
 		}
+		if(npc.type == 85)
+		{
+			if (Main.rand.NextFloat(100) < 14.29) // 13.23% chance
+			{
+				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("Warriant"));
+			}
+		}
 		// Addtional if statements here if you would like to add drops to other vanilla npc.
 	}
 }}
