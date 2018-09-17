@@ -6,28 +6,30 @@ using Terraria.ModLoader;
 
 namespace TCSSC.Projectiles
 {
-	public class KunaiP : ModProjectile
+	public class HeavyP : ModProjectile
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Kunai");     //The English name of the projectile
+			DisplayName.SetDefault("Heavy Shortsword");     //The English name of the projectile
 		}
 
 		    public override void SetDefaults()
         {
             projectile.width = 32;
             projectile.height = 32;
-            projectile.aiStyle = 14;
+            projectile.aiStyle = 2;
             projectile.friendly = true;
             projectile.melee = true;
             projectile.magic = false;
-            projectile.penetrate = 3;
+            projectile.penetrate = 1;
             projectile.timeLeft = 600;
             projectile.light = 0f;
             projectile.extraUpdates = 1;
+           
+           
         }
-		
-		public override void Kill(int timeLeft)
+       
+	  public override void Kill(int timeLeft)
 		{
 			for (int k = 0; k < 5; k++)
 			{

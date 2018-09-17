@@ -28,7 +28,7 @@ namespace TCSSC.Projectiles
 			projectile.hostile = false;         //Can the projectile deal damage to the player?
 			projectile.melee = true;           //Is the projectile shoot by a ranged weapon?
 			projectile.penetrate = 2;           //How many monsters the projectile can penetrate. (OnTileCollide below also decrements penetrate for bounces as well)         //The live time for the projectile (60 = 1 second, so 600 is 10 seconds)
-			projectile.alpha = 255;             //The transparency of the projectile, 255 for completely transparent. (aiStyle 1 quickly fades the projectile in)
+			projectile.alpha = 50;             //The transparency of the projectile, 255 for completely transparent. (aiStyle 1 quickly fades the projectile in)
 			projectile.light = 1f;            //How much light emit around the projectile
 			projectile.ignoreWater = false;          //Does the projectile's speed be influenced by water?
 			projectile.tileCollide = true;          //Can the projectile collide with tiles?

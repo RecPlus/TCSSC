@@ -46,7 +46,7 @@ namespace TCSSC.Projectiles
 				
 		{
 	            Vector2 position = projectile.Center;
-            Main.PlaySound(3, (int)projectile.position.X, (int)projectile.position.Y, 25);
+            Main.PlaySound(SoundID.Item12, projectile.position);
 			Dust.NewDust(projectile.position + projectile.velocity, projectile.width, projectile.height, 65, projectile.velocity.X * 0.5f, projectile.velocity.Y * 0.5f);
 		}
 
@@ -60,6 +60,17 @@ namespace TCSSC.Projectiles
 			}
 			return false;
 		}
+		
+		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)  //how to add a buff to a projectile
+        {
+            	target.AddBuff(24, 180);
+			target.AddBuff(70, 180);
+			target.AddBuff(153, 180);
+			target.AddBuff(20, 180);
+			target.AddBuff(120, 300);
+			target.AddBuff(137, 300);
+			target.AddBuff(103, 300);
+        }
 
 		 public override bool PreDraw(SpriteBatch sb, Color lightColor) //this is where the animation happens
         {

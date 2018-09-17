@@ -6,28 +6,30 @@ using Terraria.ModLoader;
 
 namespace TCSSC.Projectiles
 {
-	public class KunaiP : ModProjectile
+	public class RoyalP : ModProjectile
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Kunai");     //The English name of the projectile
+			DisplayName.SetDefault("Royal Shortsword");     //The English name of the projectile
 		}
 
 		    public override void SetDefaults()
         {
-            projectile.width = 32;
-            projectile.height = 32;
+            projectile.width = 40;
+            projectile.height = 40;
             projectile.aiStyle = 14;
             projectile.friendly = true;
             projectile.melee = true;
             projectile.magic = false;
-            projectile.penetrate = 3;
-            projectile.timeLeft = 600;
+            projectile.penetrate = 1;
+            projectile.timeLeft = 300;
             projectile.light = 0f;
             projectile.extraUpdates = 1;
-        }
-		
-		public override void Kill(int timeLeft)
+           
+           
+	}
+	
+	public override void Kill(int timeLeft)
 		{
 			for (int k = 0; k < 5; k++)
 			{
@@ -37,7 +39,7 @@ namespace TCSSC.Projectiles
 			}
 			Main.PlaySound(0, (int)projectile.position.X, (int)projectile.position.Y, 25);
 		}
- 
+       
  
     }
 }

@@ -15,7 +15,7 @@ namespace TCSSC.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Area Damage");     //The English name of the projectile
+			DisplayName.SetDefault("Confusion");     //The English name of the projectile
 		}
 
 		public override void SetDefaults()
@@ -25,8 +25,9 @@ namespace TCSSC.Projectiles
             projectile.aiStyle = 1;			//The width of projectile hitbox              //The height of projectile hitbox          //The ai style of the projectile, please reference the source code of Terraria
 			projectile.friendly = true;         //Can the projectile deal damage to enemies?
 			projectile.hostile = false;         //Can the projectile deal damage to the player?
-			projectile.melee = true;           //Is the projectile shoot by a ranged weapon?
-			projectile.penetrate = -1;           //How many monsters the projectile can penetrate. (OnTileCollide below also decrements penetrate for bounces as well)         //The live time for the projectile (60 = 1 second, so 600 is 10 seconds)
+			projectile.melee = false;           //Is the projectile shoot by a ranged weapon?
+			projectile.penetrate = -1;
+            projectile.timeLeft = 10;			//How many monsters the projectile can penetrate. (OnTileCollide below also decrements penetrate for bounces as well)         //The live time for the projectile (60 = 1 second, so 600 is 10 seconds)
 			projectile.alpha = 50;             //The transparency of the projectile, 255 for completely transparent. (aiStyle 1 quickly fades the projectile in)
 			projectile.light = 0.5f;            //How much light emit around the projectile
 			projectile.ignoreWater = true;          //Does the projectile's speed be influenced by water?
@@ -36,13 +37,7 @@ namespace TCSSC.Projectiles
 		
 		 public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)  //how to add a buff to a projectile
         {
-            	target.AddBuff(24, 180);
-			target.AddBuff(70, 180);
-			target.AddBuff(153, 180);
-			target.AddBuff(20, 180);
-			target.AddBuff(120, 300);
-			target.AddBuff(137, 300);
-			target.AddBuff(103, 300);
+            	target.AddBuff(31, 300);
         }
 		
 	}
