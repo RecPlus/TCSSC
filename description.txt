@@ -1,30 +1,23 @@
 -------------------------------------------------------------------------------
-v1.16 mini-update
+v1.17 mini-update
 
 FEATURES:
 
-- Added tiny armor boost to the start weapons.
-
 - Added new weapons:
-.  - Kunai: Weapon dropped by Bone Lee
-.  - The Cutter Of The True Terrarian: Terrablade Knife version
-.  - Fluxer Taser: Weapon dropped by Martian Saucer
-.  - Khive: Weapon dropped by Queen Bee
+.  - Sharp Feather: Weapon dropped by harpies in hardmode
+.  - Warriant: Weapon dropped by mimics
+.  - Solar Biter: Weapon crafted with solar fragments
+.  - Freezing Bite: Weapon dropped by Snow underground enemies
+.  - Combinated pre-hardmode ores weapons
+.  - Cactus Shortsword
 
-- Modified some weapons stats and tactics.
-
-- Changed "The Rainbow Knife" secondary attack.
-
-- Replaced "Night's Little Blade" to "The Cutter Of The True
-  Terrarian" in the "Stick" craft.
-
-- Steamgropup added on mod homepage to join more easy
+- Nerfed Titanium Skin potion
 -------------------------------------------------------------------------------
-Next Update features:
+Early Nexts Updates features:
 
 - Unique weapons for Tremor mod
 
-- New weapons like a solar knife
+- New weapons
 
 - Solar potion
 -------------------------------------------------------------------------------
