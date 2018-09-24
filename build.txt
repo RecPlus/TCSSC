@@ -1,4 +1,4 @@
 author = RecPlus
-version = 0.17
+version = 0.18
 displayName = The Complete Shortsword Class
 homepage = https://steamcommunity.com/groups/tscssc
