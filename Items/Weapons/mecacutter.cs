@@ -50,9 +50,9 @@ public override void SetStaticDefaults()
 				item.melee = true;
 				item.damage = 36;
 				item.knockBack = 3;
-                item.useTime = 8;
+                item.useTime = 5;
 				item.UseSound = SoundID.Item15;
-                item.useAnimation = 8;
+                item.useAnimation = 5;
 				item.shoot = 389;
                 item.shootSpeed = 6f;
             } else
