@@ -8,7 +8,7 @@ namespace TCSSC.Buffs
 		public override void SetDefaults()
 		{
 			DisplayName.SetDefault("Titanium Skin");
-			Description.SetDefault("Increase defense by 50");
+			Description.SetDefault("Increase defense by 15");
 			Main.debuff[Type] = false;
 			Main.pvpBuff[Type] = true;
 			Main.buffNoSave[Type] = true;
@@ -17,7 +17,7 @@ namespace TCSSC.Buffs
 
 		public override void Update(Player player, ref int buffIndex)
 		{
-		player.statDefense += 50;  
+		player.statDefense += 15;  
 		}
 	}
 }	
