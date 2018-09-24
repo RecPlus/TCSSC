@@ -14,7 +14,7 @@ namespace TCSSC.Items.Potions {
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Titanium skin potion");
-			Tooltip.SetDefault("Increase defense by 50 for a few seconds\nPerfect to use in insanley closed fights");
+			Tooltip.SetDefault("Increase your defense by 15");
 		}
 		
         public override void SetDefaults()
@@ -31,7 +31,7 @@ namespace TCSSC.Items.Potions {
             item.value = 100;                
             item.rare = 1;
             item.buffType = mod.BuffType("titaniumskin");    //this is where you put your Buff name
-            item.buffTime = 1500;    //this is the buff duration        20000 = 6 min
+            item.buffTime = 3600;    //this is the buff duration        20000 = 6 min
             return;
         }
 		
@@ -50,6 +50,7 @@ recipe.AddIngredient(126);
 		
 		     recipe = new ModRecipe(mod);                 
 recipe.AddIngredient(1106);
+recipe.AddIngredient(315);
 recipe.AddIngredient(126);	
         recipe.SetResult(this);                     
 	recipe.AddTile(13);
@@ -58,6 +59,7 @@ recipe.AddIngredient(126);
 		
 			     recipe = new ModRecipe(mod);                 
 recipe.AddIngredient(366);
+recipe.AddIngredient(315);
 recipe.AddIngredient(126);	
         recipe.SetResult(this);                     
 	recipe.AddTile(13);
