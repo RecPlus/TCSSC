@@ -1,17 +1,11 @@
 -------------------------------------------------------------------------------
-v1.18 mini-update
+v1.19 mini-update
 
 FEATURES:
 
-- Buffed Mecha Laserbeam Cutter
+- Added Solar Potion
 
-- Nerfed Titanium Skin potion
-
-- Moosy shortsword drop chance reduced in hardmode
-
-- Freezing Bite drop chance increased
-
-- Fixed mod info
+- Added Overcharged Dragon Paw (Shortsword dropped by betsy with 1/4 chance)
 -------------------------------------------------------------------------------
 Early Nexts Updates features:
 
@@ -19,12 +13,10 @@ Early Nexts Updates features:
 
 - New weapons
 
-- Solar potion
-
 P.D: To get special items with another mods compatibility, you will download the expansion apart of this mod.
 -------------------------------------------------------------------------------
 
-The Complete Short Sword Class Mod is a mod that adds a lot of new  s
+The Complete Short Sword Class Mod is a mod that adds a lot of new s
 hortswords with new interesting tactic. This tactic consist when you hit any npc with your shortswords you will have a defense boost and potion sickness debuff.
 
 This mod adds a new potion; the titanium skin potion. This potion gives you 15 defense for 1 minute.
